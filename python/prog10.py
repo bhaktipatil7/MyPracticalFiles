@@ -1,16 +1,12 @@
-# Function to perform the arithmetic operation: Addition
 def add(number_1, number_2):
     return number_1 + number_2
  
-# Function to perform the arithmetic operation: Subtraction
 def subtract(number_1, number_2):
     return number_1 - number_2
  
-# Function to perform the arithmetic operation: Multiplication
 def multiply(number_1, number_2):
     return number_1 * number_2
  
-# Function to perform the arithmetic operation: Division
 def divide(number_1, number_2):
     return number_1 / number_2
 
@@ -21,7 +17,6 @@ print("Please select which of the following arithematic operation you want me to
         "3. Multiply\n" \
         "4. Divide\n")
        
-# Taking the input from the user for which arithmetic operation to perform
 operation = int(input(" 1, 2, 3 or 4 :"))
  
 number_1 = int(input('Please, Enter the first number: '))

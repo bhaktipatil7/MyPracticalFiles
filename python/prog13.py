@@ -8,6 +8,9 @@ class Circle():
     def perimeter(self):
         return 2*self.radius*3.14
 
-NewCircle = Circle(5)
-print(NewCircle.area())
-print(NewCircle.perimeter())
+radius = input("Enter circle: ")
+NewCircle = Circle(r=float(radius))
+area = NewCircle.area()
+perimeter = NewCircle.perimeter()
+
+print(f"Area = {area}\nPerimeter = {perimeter}")
