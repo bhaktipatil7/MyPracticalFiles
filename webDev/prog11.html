@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1 {
+                color: white;
+                text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+            }
+            div {
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                position: relative;
+                animation-name: example;
+                animation-duration: 4s;
+                animation-iteration-count: 3;
+            }
+
+            @keyframes example {
+                0%{
+                    left: 100px;
+                }
+                100%{
+                    left: 0px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>This is a heading</h1>
+        <div></div>
+    </body>
+</html>
